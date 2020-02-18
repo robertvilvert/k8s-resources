@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: whoami
+  namespace: robert
+  labels:
+    app: whoami
+    kind: web
+spec:
+  containers:
+    - name: whoami
+      image: pingbo/whoami
+      ports:
+        - containerPort: 8000
