@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: whoami
-  namespace: robert
+  namespace: vilvert
   labels:
     app: whoami
     kind: web

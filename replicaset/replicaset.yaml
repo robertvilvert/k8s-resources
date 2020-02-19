@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: frontend
-  namespace: robert
+  namespace: vilvert
   labels:
     app: guestbook
     tier: frontend

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: hello
-  namespace: robert
+  namespace: vilvert
   labels:
     app: whoami
     kind: backend
@@ -11,7 +11,8 @@ spec:
     - name: hello
       resources:
         limits:
-          cpu: "31"
+          cpu: "1"
+	  memory
         requests:
-          cpu: "31"
+          cpu: "0.5"
       image: pingbo/whoami

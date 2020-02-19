@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: web-test
-  namespace: robert
+  namespace: vilvert
   labels:
     app: web-test
     kind: web
